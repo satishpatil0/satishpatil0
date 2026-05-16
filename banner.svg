@@ -1,0 +1,819 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Senior .NET Developer Portfolio Hero Banner</title>
+<desc>Animated futuristic developer workspace with cyberpunk glassmorphism aesthetic, featuring dual monitors, floating UI cards, code editors, cloud infrastructure, and neon gradient animations.</desc>
+
+<defs>
+  <!-- Background gradients -->
+  <radialGradient id="bgGlow1" cx="30%" cy="40%" r="55%">
+    <stop offset="0%" stop-color="#0d1b3e" stop-opacity="1"/>
+    <stop offset="100%" stop-color="#07090f" stop-opacity="1"/>
+  </radialGradient>
+  <radialGradient id="bgGlow2" cx="75%" cy="60%" r="50%">
+    <stop offset="0%" stop-color="#1a0e2e" stop-opacity="0.8"/>
+    <stop offset="100%" stop-color="#07090f" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="bgGlow3" cx="15%" cy="80%" r="40%">
+    <stop offset="0%" stop-color="#0a1f2f" stop-opacity="0.7"/>
+    <stop offset="100%" stop-color="#07090f" stop-opacity="0"/>
+  </radialGradient>
+
+  <!-- Neon gradients -->
+  <linearGradient id="neonBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#00d4ff"/>
+    <stop offset="100%" stop-color="#0088ff"/>
+  </linearGradient>
+  <linearGradient id="neonPurple" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#a855f7"/>
+    <stop offset="100%" stop-color="#6366f1"/>
+  </linearGradient>
+  <linearGradient id="neonCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#06ffa5"/>
+    <stop offset="100%" stop-color="#00d4ff"/>
+  </linearGradient>
+  <linearGradient id="neonPink" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#ff6eb4"/>
+    <stop offset="100%" stop-color="#a855f7"/>
+  </linearGradient>
+  <linearGradient id="gridGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#00d4ff" stop-opacity="0.15"/>
+    <stop offset="100%" stop-color="#00d4ff" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="monitorGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#0f1b3a"/>
+    <stop offset="100%" stop-color="#080d1e"/>
+  </linearGradient>
+  <linearGradient id="screenGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#0d1f45"/>
+    <stop offset="100%" stop-color="#050d20"/>
+  </linearGradient>
+  <linearGradient id="screenGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#1a0d35"/>
+    <stop offset="100%" stop-color="#080514"/>
+  </linearGradient>
+  <linearGradient id="deskGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#141c2e"/>
+    <stop offset="100%" stop-color="#0c1220"/>
+  </linearGradient>
+  <linearGradient id="waveGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#00d4ff" stop-opacity="0"/>
+    <stop offset="30%" stop-color="#00d4ff" stop-opacity="0.4"/>
+    <stop offset="70%" stop-color="#a855f7" stop-opacity="0.4"/>
+    <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="waveGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#06ffa5" stop-opacity="0"/>
+    <stop offset="40%" stop-color="#06ffa5" stop-opacity="0.3"/>
+    <stop offset="60%" stop-color="#ff6eb4" stop-opacity="0.3"/>
+    <stop offset="100%" stop-color="#ff6eb4" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="chartBarGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#00d4ff"/>
+    <stop offset="100%" stop-color="#0044aa" stop-opacity="0.3"/>
+  </linearGradient>
+  <linearGradient id="chartBarGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#a855f7"/>
+    <stop offset="100%" stop-color="#330088" stop-opacity="0.3"/>
+  </linearGradient>
+  <linearGradient id="chartBarGrad3" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#06ffa5"/>
+    <stop offset="100%" stop-color="#003322" stop-opacity="0.3"/>
+  </linearGradient>
+
+  <!-- Glow filters -->
+  <filter id="glowBlue" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="blur"/>
+    <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+  </filter>
+  <filter id="glowCyan" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur"/>
+    <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+  </filter>
+  <filter id="glowSoft" x="-30%" y="-30%" width="160%" height="160%">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur"/>
+    <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+  </filter>
+  <filter id="glowStrong" x="-80%" y="-80%" width="260%" height="260%">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"/>
+    <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+  </filter>
+  <filter id="blur4">
+    <feGaussianBlur stdDeviation="4"/>
+  </filter>
+  <filter id="blur8">
+    <feGaussianBlur stdDeviation="8"/>
+  </filter>
+
+  <!-- Glass effect -->
+  <filter id="glass">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="2" result="blur"/>
+    <feOffset in="blur" dx="0" dy="1" result="offsetBlur"/>
+    <feComposite in="SourceGraphic" in2="offsetBlur" operator="over"/>
+  </filter>
+
+  <!-- Clip paths -->
+  <clipPath id="screenClip1">
+    <rect x="142" y="170" width="340" height="220" rx="4"/>
+  </clipPath>
+  <clipPath id="screenClip2">
+    <rect x="520" y="150" width="300" height="210" rx="4"/>
+  </clipPath>
+  <clipPath id="bannerClip">
+    <rect width="1280" height="640"/>
+  </clipPath>
+
+  <!-- Patterns -->
+  <pattern id="dots" x="0" y="0" width="30" height="30" patternUnits="userSpaceOnUse">
+    <circle cx="15" cy="15" r="0.8" fill="#00d4ff" opacity="0.25"/>
+  </pattern>
+  <pattern id="grid" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
+    <path d="M60 0 L0 0 0 60" fill="none" stroke="#00d4ff" stroke-width="0.3" opacity="0.08"/>
+  </pattern>
+</defs>
+
+<g clip-path="url(#bannerClip)">
+
+<!-- ============ BACKGROUND ============ -->
+<rect width="1280" height="640" fill="#07090f"/>
+<rect width="1280" height="640" fill="url(#bgGlow1)"/>
+<rect width="1280" height="640" fill="url(#bgGlow2)"/>
+<rect width="1280" height="640" fill="url(#bgGlow3)"/>
+
+<!-- Grid overlay -->
+<rect width="1280" height="640" fill="url(#grid)" opacity="0.6"/>
+<rect width="1280" height="640" fill="url(#dots)"/>
+
+<!-- Perspective floor grid -->
+<g opacity="0.12">
+  <line x1="640" y1="460" x2="0" y2="640" stroke="#00d4ff" stroke-width="0.5"/>
+  <line x1="640" y1="460" x2="180" y2="640" stroke="#00d4ff" stroke-width="0.5"/>
+  <line x1="640" y1="460" x2="360" y2="640" stroke="#00d4ff" stroke-width="0.5"/>
+  <line x1="640" y1="460" x2="540" y2="640" stroke="#00d4ff" stroke-width="0.5"/>
+  <line x1="640" y1="460" x2="720" y2="640" stroke="#00d4ff" stroke-width="0.5"/>
+  <line x1="640" y1="460" x2="900" y2="640" stroke="#00d4ff" stroke-width="0.5"/>
+  <line x1="640" y1="460" x2="1080" y2="640" stroke="#00d4ff" stroke-width="0.5"/>
+  <line x1="640" y1="460" x2="1280" y2="640" stroke="#00d4ff" stroke-width="0.5"/>
+  <line x1="0" y1="490" x2="1280" y2="490" stroke="#00d4ff" stroke-width="0.4"/>
+  <line x1="0" y1="520" x2="1280" y2="520" stroke="#00d4ff" stroke-width="0.3"/>
+  <line x1="0" y1="550" x2="1280" y2="550" stroke="#00d4ff" stroke-width="0.3"/>
+  <line x1="0" y1="580" x2="1280" y2="580" stroke="#00d4ff" stroke-width="0.2"/>
+  <line x1="0" y1="610" x2="1280" y2="610" stroke="#00d4ff" stroke-width="0.2"/>
+</g>
+
+<!-- ============ ANIMATED WAVE LINES ============ -->
+<g opacity="0.5">
+  <path id="wave1" d="M-200 380 Q200 340 400 380 Q600 420 800 370 Q1000 320 1200 380 Q1400 430 1600 380" fill="none" stroke="url(#waveGrad1)" stroke-width="1.5">
+    <animateTransform attributeName="transform" type="translate" values="-200,0;0,0;-200,0" dur="12s" repeatCount="indefinite"/>
+  </path>
+  <path id="wave2" d="M-200 400 Q250 360 450 405 Q650 445 850 395 Q1050 345 1250 400 Q1450 445 1650 400" fill="none" stroke="url(#waveGrad2)" stroke-width="1">
+    <animateTransform attributeName="transform" type="translate" values="0,0;-200,0;0,0" dur="15s" repeatCount="indefinite"/>
+  </path>
+  <path id="wave3" d="M-200 420 Q220 380 420 425 Q620 465 820 415 Q1020 365 1220 420 Q1420 465 1620 420" fill="none" stroke="url(#waveGrad1)" stroke-width="0.8" opacity="0.6">
+    <animateTransform attributeName="transform" type="translate" values="-100,0;100,0;-100,0" dur="10s" repeatCount="indefinite"/>
+  </path>
+</g>
+
+<!-- ============ AMBIENT GLOW ORBS ============ -->
+<circle cx="200" cy="300" r="180" fill="#0044cc" opacity="0.06" filter="url(#blur8)"/>
+<circle cx="900" cy="200" r="200" fill="#6600cc" opacity="0.07" filter="url(#blur8)"/>
+<circle cx="1100" cy="450" r="160" fill="#00aacc" opacity="0.06" filter="url(#blur8)"/>
+<circle cx="500" cy="500" r="140" fill="#006699" opacity="0.05" filter="url(#blur8)"/>
+
+<!-- Pulsing orb left -->
+<circle cx="120" cy="320" r="60" fill="#00d4ff" opacity="0.04" filter="url(#blur8)">
+  <animate attributeName="r" values="60;90;60" dur="6s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0.04;0.08;0.04" dur="6s" repeatCount="indefinite"/>
+</circle>
+
+<!-- Pulsing orb right -->
+<circle cx="1160" cy="280" r="70" fill="#a855f7" opacity="0.05" filter="url(#blur8)">
+  <animate attributeName="r" values="70;100;70" dur="8s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0.05;0.09;0.05" dur="8s" repeatCount="indefinite"/>
+</circle>
+
+<!-- ============ DESK SURFACE ============ -->
+<rect x="60" y="430" width="1160" height="18" rx="3" fill="url(#deskGrad)" opacity="0.9"/>
+<rect x="60" y="446" width="1160" height="4" rx="0" fill="#00d4ff" opacity="0.08"/>
+<!-- Desk reflection line -->
+<rect x="60" y="430" width="1160" height="2" fill="#00d4ff" opacity="0.15"/>
+
+<!-- Desk underside glow -->
+<rect x="60" y="448" width="1160" height="40" fill="#00d4ff" opacity="0.02" filter="url(#blur8)"/>
+
+<!-- ============ MONITOR STANDS ============ -->
+<!-- Left monitor stand -->
+<rect x="268" y="428" width="28" height="8" rx="2" fill="#0f1525" opacity="0.9"/>
+<rect x="278" y="418" width="8" height="14" rx="1" fill="#0d1220" opacity="0.9"/>
+<!-- Right monitor stand -->
+<rect x="630" y="428" width="28" height="8" rx="2" fill="#0f1525" opacity="0.9"/>
+<rect x="640" y="416" width="8" height="16" rx="1" fill="#0d1220" opacity="0.9"/>
+
+<!-- ============ LEFT MONITOR (main code editor) ============ -->
+<!-- Monitor outer shell -->
+<rect x="130" y="155" width="364" height="274" rx="8" fill="url(#monitorGrad)" stroke="#1a2a4a" stroke-width="1.5"/>
+<!-- Monitor bezel top -->
+<rect x="130" y="155" width="364" height="12" rx="4" fill="#0f1525"/>
+<!-- Bezel light -->
+<circle cx="312" cy="161" r="2.5" fill="#00d4ff" opacity="0.6">
+  <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
+</circle>
+<!-- Screen area -->
+<rect x="142" y="170" width="340" height="250" rx="4" fill="url(#screenGrad1)"/>
+<!-- Screen glow border -->
+<rect x="142" y="170" width="340" height="250" rx="4" fill="none" stroke="#00d4ff" stroke-width="0.8" opacity="0.4"/>
+
+<!-- Screen ambient light reflection -->
+<rect x="142" y="170" width="340" height="30" rx="4" fill="#00aaff" opacity="0.04"/>
+
+<!-- Code editor window -->
+<g clip-path="url(#screenClip1)">
+  <!-- Editor background -->
+  <rect x="142" y="170" width="340" height="250" fill="#080e1e"/>
+
+  <!-- Tab bar -->
+  <rect x="142" y="170" width="340" height="22" fill="#0a1228"/>
+  <rect x="148" y="174" width="80" height="14" rx="3" fill="#0f1e3a"/>
+  <rect x="148" y="174" width="80" height="14" rx="3" fill="none" stroke="#00d4ff" stroke-width="0.5" opacity="0.4"/>
+  <circle cx="155" cy="181" r="3" fill="#ff5f57" opacity="0.8"/>
+  <circle cx="164" cy="181" r="3" fill="#febc2e" opacity="0.8"/>
+  <circle cx="173" cy="181" r="3" fill="#28c840" opacity="0.8"/>
+  <rect x="236" y="174" width="70" height="14" rx="3" fill="#0a1228"/>
+  <rect x="316" y="174" width="60" height="14" rx="3" fill="#0a1228"/>
+
+  <!-- Line numbers -->
+  <g fill="#2a3a5a" font-family="monospace" font-size="9">
+    <text x="150" y="207">01</text>
+    <text x="150" y="220">02</text>
+    <text x="150" y="233">03</text>
+    <text x="150" y="246">04</text>
+    <text x="150" y="259">05</text>
+    <text x="150" y="272">06</text>
+    <text x="150" y="285">07</text>
+    <text x="150" y="298">08</text>
+    <text x="150" y="311">09</text>
+    <text x="150" y="324">10</text>
+    <text x="150" y="337">11</text>
+    <text x="150" y="350">12</text>
+    <text x="150" y="363">13</text>
+    <text x="150" y="376">14</text>
+    <text x="150" y="389">15</text>
+    <text x="150" y="402">16</text>
+  </g>
+
+  <!-- Active line highlight -->
+  <rect x="164" y="238" width="316" height="12" fill="#00d4ff" opacity="0.07" rx="1"/>
+
+  <!-- Code lines - syntax colored -->
+  <g font-family="monospace" font-size="9.5">
+    <!-- Line 1 -->
+    <text x="168" y="207" fill="#a855f7">using</text>
+    <text x="200" y="207" fill="#e2e8f0"> Microsoft.AspNetCore</text>
+    <!-- Line 2 -->
+    <text x="168" y="220" fill="#a855f7">using</text>
+    <text x="200" y="220" fill="#e2e8f0"> EntityFramework.Core</text>
+    <!-- Line 3 -->
+    <text x="168" y="233" fill="#64748b">// AI Service Layer</text>
+    <!-- Line 4 active -->
+    <text x="168" y="247" fill="#06ffa5">public class</text>
+    <text x="233" y="247" fill="#00d4ff"> AIService</text>
+    <!-- Line 5 -->
+    <text x="168" y="260" fill="#e2e8f0">{</text>
+    <!-- Line 6 -->
+    <text x="180" y="273" fill="#a855f7">  private readonly</text>
+    <text x="270" y="273" fill="#ff6eb4"> ILogger</text>
+    <!-- Line 7 -->
+    <text x="168" y="286" fill="#e2e8f0">  </text>
+    <text x="168" y="286" fill="#06ffa5">  public async</text>
+    <text x="236" y="286" fill="#00d4ff"> Task</text>
+    <text x="256" y="286" fill="#e2e8f0">&lt;</text>
+    <text x="260" y="286" fill="#ff6eb4">Result</text>
+    <text x="288" y="286" fill="#e2e8f0">&gt;</text>
+    <!-- Line 8 -->
+    <text x="180" y="299" fill="#e2e8f0">  ProcessAsync(</text>
+    <!-- Line 9 -->
+    <text x="192" y="312" fill="#ff6eb4">    string</text>
+    <text x="228" y="312" fill="#e2e8f0"> prompt,</text>
+    <!-- Line 10 -->
+    <text x="192" y="325" fill="#ff6eb4">    CancToken</text>
+    <text x="248" y="325" fill="#e2e8f0"> ct = default)</text>
+    <!-- Line 11 -->
+    <text x="180" y="338" fill="#e2e8f0">  {</text>
+    <!-- Line 12 -->
+    <text x="192" y="351" fill="#a855f7">    var</text>
+    <text x="210" y="351" fill="#e2e8f0"> response =</text>
+    <text x="256" y="351" fill="#a855f7"> await</text>
+    <!-- Line 13 -->
+    <text x="204" y="364" fill="#00d4ff">      _client</text>
+    <text x="242" y="364" fill="#e2e8f0">.GetAsync(prompt);</text>
+    <!-- Line 14 -->
+    <text x="192" y="377" fill="#a855f7">    return</text>
+    <text x="226" y="377" fill="#e2e8f0"> Result.Ok(response);</text>
+    <!-- Line 15 -->
+    <text x="180" y="390" fill="#e2e8f0">  }</text>
+    <!-- Line 16 -->
+    <text x="168" y="403" fill="#e2e8f0">}</text>
+  </g>
+
+  <!-- Cursor blink -->
+  <rect x="168" y="397" width="6" height="11" fill="#00d4ff" opacity="0.9" rx="1">
+    <animate attributeName="opacity" values="0.9;0;0.9" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Scrollbar -->
+  <rect x="475" y="195" width="4" height="200" rx="2" fill="#1a2a40" opacity="0.5"/>
+  <rect x="475" y="200" width="4" height="60" rx="2" fill="#00d4ff" opacity="0.3"/>
+
+  <!-- Status bar -->
+  <rect x="142" y="400" width="340" height="20" fill="#050c1a"/>
+  <circle cx="152" cy="410" r="4" fill="#06ffa5" opacity="0.8"/>
+  <rect x="162" y="405" width="40" height="9" rx="2" fill="#06ffa5" opacity="0.15"/>
+  <rect x="210" y="405" width="50" height="9" rx="2" fill="#00d4ff" opacity="0.1"/>
+  <rect x="380" y="405" width="35" height="9" rx="2" fill="#a855f7" opacity="0.15"/>
+  <rect x="420" y="405" width="55" height="9" rx="2" fill="#00d4ff" opacity="0.1"/>
+</g>
+
+<!-- Screen glow on desk -->
+<ellipse cx="312" cy="434" rx="180" ry="10" fill="#00d4ff" opacity="0.06" filter="url(#blur4)"/>
+
+<!-- ============ RIGHT MONITOR (dashboard) ============ -->
+<!-- Monitor outer shell -->
+<rect x="508" y="135" width="364" height="296" rx="8" fill="url(#monitorGrad)" stroke="#1a1a3a" stroke-width="1.5"/>
+<!-- Bezel top -->
+<rect x="508" y="135" width="364" height="12" rx="4" fill="#0f0f25"/>
+<!-- Bezel light -->
+<circle cx="690" cy="141" r="2.5" fill="#a855f7" opacity="0.6">
+  <animate attributeName="opacity" values="0.6;1;0.6" dur="4s" repeatCount="indefinite"/>
+</circle>
+<!-- Screen area -->
+<rect x="520" y="150" width="340" height="268" rx="4" fill="url(#screenGrad2)"/>
+<rect x="520" y="150" width="340" height="268" rx="4" fill="none" stroke="#a855f7" stroke-width="0.8" opacity="0.4"/>
+
+<!-- Screen reflection -->
+<rect x="520" y="150" width="340" height="30" rx="4" fill="#8833ff" opacity="0.03"/>
+
+<g clip-path="url(#screenClip2)">
+  <!-- Dashboard background -->
+  <rect x="520" y="150" width="340" height="268" fill="#0a0514"/>
+
+  <!-- Top nav bar -->
+  <rect x="520" y="150" width="340" height="28" fill="#0d0820"/>
+  <!-- Nav dots -->
+  <circle cx="536" cy="164" r="5" fill="#a855f7" opacity="0.7"/>
+  <circle cx="551" cy="164" r="5" fill="#6366f1" opacity="0.5"/>
+  <circle cx="566" cy="164" r="5" fill="#06ffa5" opacity="0.3"/>
+  <!-- Nav items -->
+  <rect x="580" y="158" width="40" height="12" rx="3" fill="#a855f7" opacity="0.25"/>
+  <rect x="628" y="158" width="35" height="12" rx="3" fill="#1a0d35" opacity="0.5"/>
+  <rect x="671" y="158" width="35" height="12" rx="3" fill="#1a0d35" opacity="0.5"/>
+  <rect x="714" y="158" width="35" height="12" rx="3" fill="#1a0d35" opacity="0.5"/>
+  <!-- Profile icon -->
+  <circle cx="847" cy="164" r="8" fill="#a855f7" opacity="0.4"/>
+
+  <!-- KPI Cards row -->
+  <rect x="528" y="185" width="74" height="50" rx="4" fill="#130a25" stroke="#a855f7" stroke-width="0.5" stroke-opacity="0.3"/>
+  <rect x="528" y="185" width="74" height="4" rx="2" fill="#a855f7" opacity="0.6"/>
+  <rect x="534" y="200" width="30" height="7" rx="2" fill="#a855f7" opacity="0.2"/>
+  <rect x="534" y="215" width="45" height="10" rx="2" fill="#a855f7" opacity="0.35"/>
+
+  <rect x="610" y="185" width="74" height="50" rx="4" fill="#0a1325" stroke="#00d4ff" stroke-width="0.5" stroke-opacity="0.3"/>
+  <rect x="610" y="185" width="74" height="4" rx="2" fill="#00d4ff" opacity="0.6"/>
+  <rect x="616" y="200" width="30" height="7" rx="2" fill="#00d4ff" opacity="0.2"/>
+  <rect x="616" y="215" width="45" height="10" rx="2" fill="#00d4ff" opacity="0.35"/>
+
+  <rect x="692" y="185" width="74" height="50" rx="4" fill="#0a1a14" stroke="#06ffa5" stroke-width="0.5" stroke-opacity="0.3"/>
+  <rect x="692" y="185" width="74" height="4" rx="2" fill="#06ffa5" opacity="0.6"/>
+  <rect x="698" y="200" width="30" height="7" rx="2" fill="#06ffa5" opacity="0.2"/>
+  <rect x="698" y="215" width="45" height="10" rx="2" fill="#06ffa5" opacity="0.35"/>
+
+  <rect x="774" y="185" width="74" height="50" rx="4" fill="#1a0d1a" stroke="#ff6eb4" stroke-width="0.5" stroke-opacity="0.3"/>
+  <rect x="774" y="185" width="74" height="4" rx="2" fill="#ff6eb4" opacity="0.6"/>
+  <rect x="780" y="200" width="30" height="7" rx="2" fill="#ff6eb4" opacity="0.2"/>
+  <rect x="780" y="215" width="45" height="10" rx="2" fill="#ff6eb4" opacity="0.35"/>
+
+  <!-- Animated bar chart -->
+  <rect x="528" y="248" width="164" height="90" rx="4" fill="#0d0820" stroke="#1a1040" stroke-width="0.8"/>
+  <rect x="532" y="251" width="50" height="8" rx="2" fill="#a855f7" opacity="0.3"/>
+
+  <!-- Chart bars -->
+  <rect x="540" y="295" width="14" height="36" rx="2" fill="url(#chartBarGrad2)" opacity="0.8">
+    <animate attributeName="height" values="36;50;36" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="295;281;295" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="560" y="306" width="14" height="25" rx="2" fill="url(#chartBarGrad2)" opacity="0.6">
+    <animate attributeName="height" values="25;38;25" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="306;293;306" dur="5s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="580" y="288" width="14" height="43" rx="2" fill="url(#chartBarGrad2)" opacity="0.9">
+    <animate attributeName="height" values="43;55;43" dur="3.5s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="288;276;288" dur="3.5s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="600" y="300" width="14" height="31" rx="2" fill="url(#chartBarGrad2)" opacity="0.7">
+    <animate attributeName="height" values="31;44;31" dur="4.5s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="300;287;300" dur="4.5s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="620" y="283" width="14" height="48" rx="2" fill="url(#chartBarGrad2)" opacity="1">
+    <animate attributeName="height" values="48;62;48" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="283;269;283" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="640" y="293" width="14" height="38" rx="2" fill="url(#chartBarGrad2)" opacity="0.75">
+    <animate attributeName="height" values="38;52;38" dur="3.8s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="293;279;293" dur="3.8s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="660" y="270" width="14" height="61" rx="2" fill="url(#chartBarGrad2)" opacity="1">
+    <animate attributeName="height" values="61;72;61" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="270;259;270" dur="5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Donut / ring chart -->
+  <rect x="700" y="248" width="148" height="90" rx="4" fill="#0d0820" stroke="#1a1040" stroke-width="0.8"/>
+  <rect x="704" y="251" width="50" height="8" rx="2" fill="#00d4ff" opacity="0.3"/>
+  <!-- Ring -->
+  <circle cx="774" cy="298" r="26" fill="none" stroke="#0f1528" stroke-width="10"/>
+  <circle cx="774" cy="298" r="26" fill="none" stroke="#00d4ff" stroke-width="10" stroke-dasharray="82 82" stroke-dashoffset="-41" opacity="0.8">
+    <animateTransform attributeName="transform" type="rotate" from="0 774 298" to="360 774 298" dur="20s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="774" cy="298" r="26" fill="none" stroke="#a855f7" stroke-width="10" stroke-dasharray="50 114" stroke-dashoffset="-133" opacity="0.6"/>
+  <circle cx="774" cy="298" r="26" fill="none" stroke="#06ffa5" stroke-width="10" stroke-dasharray="30 134" stroke-dashoffset="-183" opacity="0.7"/>
+  <!-- Center text placeholder -->
+  <circle cx="774" cy="298" r="14" fill="#0d0820"/>
+  <rect x="766" y="293" width="16" height="4" rx="2" fill="#00d4ff" opacity="0.5"/>
+  <rect x="768" y="299" width="12" height="4" rx="2" fill="#a855f7" opacity="0.4"/>
+
+  <!-- Activity/line chart -->
+  <rect x="528" y="345" width="320" height="65" rx="4" fill="#0d0820" stroke="#1a1040" stroke-width="0.8"/>
+  <rect x="532" y="348" width="50" height="8" rx="2" fill="#06ffa5" opacity="0.3"/>
+  <!-- Line chart paths -->
+  <polyline points="535,395 560,382 585,388 610,375 635,380 660,365 685,372 710,355 735,362 750,350 770,358 795,342 820,350 840,338 848,342" fill="none" stroke="#06ffa5" stroke-width="1.5" opacity="0.7" stroke-linejoin="round" stroke-linecap="round"/>
+  <polyline points="535,400 560,392 585,396 610,386 635,390 660,378 685,384 710,370 735,375 750,365 770,370 795,358 820,364 840,355 848,358" fill="none" stroke="#a855f7" stroke-width="1" opacity="0.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <!-- Moving point on line -->
+  <circle cx="710" cy="355" r="3" fill="#06ffa5" opacity="0.9">
+    <animate attributeName="cx" values="535;848;535" dur="8s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    <animate attributeName="cy" values="395;342;395" dur="8s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+  </circle>
+  <!-- Area fill under line -->
+  <polygon points="535,395 560,382 585,388 610,375 635,380 660,365 685,372 710,355 735,362 750,350 770,358 795,342 820,350 840,338 848,342 848,410 535,410" fill="#06ffa5" opacity="0.04"/>
+</g>
+
+<!-- Screen glow on desk -->
+<ellipse cx="690" cy="434" rx="180" ry="10" fill="#a855f7" opacity="0.05" filter="url(#blur4)"/>
+
+<!-- ============ KEYBOARD ============ -->
+<rect x="220" y="445" width="200" height="40" rx="4" fill="#0d1220" stroke="#1a2235" stroke-width="0.8" opacity="0.9"/>
+<!-- Key rows -->
+<g opacity="0.6">
+  <rect x="228" y="450" width="12" height="8" rx="1" fill="#1a2840"/>
+  <rect x="244" y="450" width="12" height="8" rx="1" fill="#1a2840"/>
+  <rect x="260" y="450" width="12" height="8" rx="1" fill="#1a2840"/>
+  <rect x="276" y="450" width="12" height="8" rx="1" fill="#1a2840"/>
+  <rect x="292" y="450" width="12" height="8" rx="1" fill="#1a2840"/>
+  <rect x="308" y="450" width="12" height="8" rx="1" fill="#00d4ff" opacity="0.3"/>
+  <rect x="324" y="450" width="12" height="8" rx="1" fill="#1a2840"/>
+  <rect x="340" y="450" width="12" height="8" rx="1" fill="#1a2840"/>
+  <rect x="356" y="450" width="12" height="8" rx="1" fill="#1a2840"/>
+  <rect x="372" y="450" width="12" height="8" rx="1" fill="#1a2840"/>
+  <rect x="388" y="450" width="12" height="8" rx="1" fill="#1a2840"/>
+
+  <rect x="228" y="463" width="12" height="8" rx="1" fill="#1a2840"/>
+  <rect x="244" y="463" width="12" height="8" rx="1" fill="#1a2840"/>
+  <rect x="260" y="463" width="12" height="8" rx="1" fill="#a855f7" opacity="0.3"/>
+  <rect x="276" y="463" width="12" height="8" rx="1" fill="#1a2840"/>
+  <rect x="292" y="463" width="12" height="8" rx="1" fill="#1a2840"/>
+  <rect x="308" y="463" width="52" height="8" rx="1" fill="#1a2840"/>
+  <rect x="364" y="463" width="12" height="8" rx="1" fill="#1a2840"/>
+  <rect x="380" y="463" width="12" height="8" rx="1" fill="#1a2840"/>
+  <rect x="396" y="463" width="12" height="8" rx="1" fill="#1a2840"/>
+
+  <rect x="228" y="476" width="100" height="8" rx="1" fill="#1a2840"/>
+  <rect x="332" y="476" width="60" height="8" rx="1" fill="#1a2840"/>
+  <rect x="396" y="476" width="12" height="8" rx="1" fill="#1a2840"/>
+</g>
+
+<!-- ============ MOUSE ============ -->
+<rect x="440" y="445" width="36" height="50" rx="14" fill="#0d1220" stroke="#1a2235" stroke-width="0.8" opacity="0.85"/>
+<line x1="458" y1="445" x2="458" y2="465" stroke="#1a2840" stroke-width="0.8" opacity="0.8"/>
+<rect x="452" y="448" width="12" height="6" rx="3" fill="#00d4ff" opacity="0.2"/>
+
+<!-- ============ FLOATING TERMINAL WINDOW (left) ============ -->
+<g transform="translate(30, 200)">
+  <animateTransform attributeName="transform" type="translate" values="30,200;30,188;30,200" dur="7s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+  <!-- Window -->
+  <rect x="0" y="0" width="110" height="90" rx="6" fill="#0a0f1e" stroke="#00d4ff" stroke-width="0.8" stroke-opacity="0.5" opacity="0.92"/>
+  <!-- Glass overlay -->
+  <rect x="0" y="0" width="110" height="90" rx="6" fill="#00d4ff" opacity="0.03"/>
+  <!-- Top bar -->
+  <rect x="0" y="0" width="110" height="18" rx="6" fill="#0d1828"/>
+  <rect x="0" y="9" width="110" height="9" fill="#0d1828"/>
+  <circle cx="10" cy="9" r="3" fill="#ff5f57"/>
+  <circle cx="20" cy="9" r="3" fill="#febc2e"/>
+  <circle cx="30" cy="9" r="3" fill="#28c840"/>
+  <!-- Terminal content -->
+  <rect x="8" y="24" width="60" height="5" rx="1" fill="#06ffa5" opacity="0.6"/>
+  <rect x="8" y="34" width="90" height="5" rx="1" fill="#e2e8f0" opacity="0.3"/>
+  <rect x="8" y="44" width="75" height="5" rx="1" fill="#00d4ff" opacity="0.4"/>
+  <rect x="8" y="54" width="85" height="5" rx="1" fill="#e2e8f0" opacity="0.25"/>
+  <rect x="8" y="64" width="50" height="5" rx="1" fill="#a855f7" opacity="0.5"/>
+  <!-- Blinking cursor -->
+  <rect x="8" y="74" width="6" height="8" rx="1" fill="#06ffa5" opacity="0.9">
+    <animate attributeName="opacity" values="0.9;0;0.9" dur="1s" repeatCount="indefinite"/>
+  </rect>
+  <!-- Glow border -->
+  <rect x="0" y="0" width="110" height="90" rx="6" fill="none" stroke="#00d4ff" stroke-width="2" opacity="0.1" filter="url(#blur4)"/>
+</g>
+
+<!-- ============ FLOATING UI COMPONENT CARD (top area) ============ -->
+<g>
+  <animateTransform attributeName="transform" type="translate" values="0,0;0,-12;0,0" dur="8s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+  <g transform="translate(860, 60)">
+    <!-- React component card -->
+    <rect x="0" y="0" width="130" height="100" rx="8" fill="#0a0514" stroke="#a855f7" stroke-width="0.8" stroke-opacity="0.5" opacity="0.93"/>
+    <rect x="0" y="0" width="130" height="100" rx="8" fill="#a855f7" opacity="0.04"/>
+    <!-- Header bar -->
+    <rect x="0" y="0" width="130" height="20" rx="8" fill="#13082a"/>
+    <rect x="0" y="10" width="130" height="10" fill="#13082a"/>
+    <rect x="8" y="7" width="50" height="7" rx="2" fill="#a855f7" opacity="0.4"/>
+    <circle cx="118" cy="10" r="5" fill="#a855f7" opacity="0.3"/>
+    <!-- Component structure lines -->
+    <rect x="10" y="28" width="110" height="6" rx="2" fill="#6366f1" opacity="0.25"/>
+    <rect x="18" y="40" width="90" height="5" rx="1" fill="#e2e8f0" opacity="0.15"/>
+    <rect x="18" y="50" width="70" height="5" rx="1" fill="#a855f7" opacity="0.2"/>
+    <rect x="18" y="60" width="85" height="5" rx="1" fill="#e2e8f0" opacity="0.15"/>
+    <rect x="10" y="72" width="110" height="6" rx="2" fill="#6366f1" opacity="0.2"/>
+    <!-- Connection dots -->
+    <circle cx="10" cy="31" r="2" fill="#a855f7" opacity="0.6"/>
+    <circle cx="10" cy="75" r="2" fill="#a855f7" opacity="0.4"/>
+    <!-- Border glow -->
+    <rect x="0" y="0" width="130" height="100" rx="8" fill="none" stroke="#a855f7" stroke-width="3" opacity="0.08" filter="url(#blur4)"/>
+  </g>
+</g>
+
+<!-- ============ FLOATING CLOUD NODES ============ -->
+<!-- Cloud node 1 -->
+<g>
+  <animateTransform attributeName="transform" type="translate" values="0,0;0,-15;0,0" dur="9s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+  <g transform="translate(1050, 80)">
+    <rect x="0" y="0" width="110" height="70" rx="6" fill="#0a1328" stroke="#00d4ff" stroke-width="0.6" stroke-opacity="0.45" opacity="0.9"/>
+    <rect x="0" y="0" width="110" height="70" rx="6" fill="#00d4ff" opacity="0.03"/>
+    <!-- Cloud icon outline -->
+    <ellipse cx="40" cy="28" rx="22" ry="14" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.4"/>
+    <ellipse cx="56" cy="32" rx="18" ry="12" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.3"/>
+    <rect x="18" y="32" width="56" height="8" rx="2" fill="#00d4ff" opacity="0.08"/>
+    <!-- Stats beneath -->
+    <rect x="8" y="46" width="40" height="5" rx="1" fill="#00d4ff" opacity="0.3"/>
+    <rect x="55" y="46" width="48" height="5" rx="1" fill="#06ffa5" opacity="0.25"/>
+    <rect x="8" y="56" width="30" height="5" rx="1" fill="#e2e8f0" opacity="0.15"/>
+    <rect x="55" y="56" width="35" height="5" rx="1" fill="#e2e8f0" opacity="0.15"/>
+  </g>
+</g>
+
+<!-- Cloud node 2 / AI indicator -->
+<g>
+  <animateTransform attributeName="transform" type="translate" values="0,0;0,-10;0,0" dur="11s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+  <g transform="translate(1170, 170)">
+    <rect x="0" y="0" width="90" height="80" rx="6" fill="#0a0514" stroke="#ff6eb4" stroke-width="0.6" stroke-opacity="0.45" opacity="0.9"/>
+    <rect x="0" y="0" width="90" height="80" rx="6" fill="#ff6eb4" opacity="0.03"/>
+    <!-- AI neural visual -->
+    <circle cx="45" cy="35" r="12" fill="none" stroke="#ff6eb4" stroke-width="0.8" opacity="0.4"/>
+    <circle cx="45" cy="35" r="7" fill="none" stroke="#ff6eb4" stroke-width="0.8" opacity="0.3"/>
+    <circle cx="45" cy="35" r="3" fill="#ff6eb4" opacity="0.5"/>
+    <!-- Connecting lines -->
+    <line x1="23" y1="20" x2="38" y2="28" stroke="#ff6eb4" stroke-width="0.7" opacity="0.3"/>
+    <line x1="67" y1="20" x2="52" y2="28" stroke="#ff6eb4" stroke-width="0.7" opacity="0.3"/>
+    <line x1="23" y1="50" x2="38" y2="43" stroke="#ff6eb4" stroke-width="0.7" opacity="0.3"/>
+    <line x1="67" y1="50" x2="52" y2="43" stroke="#ff6eb4" stroke-width="0.7" opacity="0.3"/>
+    <circle cx="23" cy="20" r="3" fill="#ff6eb4" opacity="0.4"/>
+    <circle cx="67" cy="20" r="3" fill="#ff6eb4" opacity="0.3"/>
+    <circle cx="23" cy="50" r="3" fill="#ff6eb4" opacity="0.3"/>
+    <circle cx="67" cy="50" r="3" fill="#ff6eb4" opacity="0.4"/>
+    <!-- Bars -->
+    <rect x="8" y="58" width="74" height="5" rx="1" fill="#ff6eb4" opacity="0.2"/>
+    <rect x="8" y="67" width="55" height="5" rx="1" fill="#e2e8f0" opacity="0.12"/>
+    <!-- Pulse ring -->
+    <circle cx="45" cy="35" r="18" fill="none" stroke="#ff6eb4" stroke-width="0.5" opacity="0.2">
+      <animate attributeName="r" values="14;22;14" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;0;0.3" dur="3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</g>
+
+<!-- ============ FLOATING SERVER/API CARD ============ -->
+<g>
+  <animateTransform attributeName="transform" type="translate" values="0,0;0,-8;0,0" dur="10s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+  <g transform="translate(52, 90)">
+    <rect x="0" y="0" width="100" height="90" rx="6" fill="#0a1820" stroke="#06ffa5" stroke-width="0.6" stroke-opacity="0.45" opacity="0.9"/>
+    <rect x="0" y="0" width="100" height="90" rx="6" fill="#06ffa5" opacity="0.03"/>
+    <!-- Server rack visual -->
+    <rect x="10" y="12" width="80" height="12" rx="3" fill="#06ffa5" opacity="0.12" stroke="#06ffa5" stroke-width="0.5" stroke-opacity="0.3"/>
+    <circle cx="18" cy="18" r="3" fill="#06ffa5" opacity="0.5">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="24" y="15" width="40" height="6" rx="1" fill="#06ffa5" opacity="0.15"/>
+    <circle cx="84" cy="18" r="3" fill="#06ffa5" opacity="0.3"/>
+
+    <rect x="10" y="28" width="80" height="12" rx="3" fill="#06ffa5" opacity="0.08" stroke="#06ffa5" stroke-width="0.5" stroke-opacity="0.2"/>
+    <circle cx="18" cy="34" r="3" fill="#00d4ff" opacity="0.4"/>
+    <rect x="24" y="31" width="55" height="6" rx="1" fill="#00d4ff" opacity="0.12"/>
+
+    <rect x="10" y="44" width="80" height="12" rx="3" fill="#06ffa5" opacity="0.06" stroke="#06ffa5" stroke-width="0.5" stroke-opacity="0.15"/>
+    <circle cx="18" cy="50" r="3" fill="#a855f7" opacity="0.4"/>
+    <rect x="24" y="47" width="45" height="6" rx="1" fill="#a855f7" opacity="0.12"/>
+
+    <!-- Status indicators -->
+    <rect x="10" y="64" width="80" height="18" rx="3" fill="#050f14"/>
+    <rect x="14" y="68" width="20" height="6" rx="1" fill="#06ffa5" opacity="0.4"/>
+    <rect x="40" y="68" width="20" height="6" rx="1" fill="#00d4ff" opacity="0.3"/>
+    <rect x="66" y="68" width="18" height="6" rx="1" fill="#a855f7" opacity="0.3"/>
+  </g>
+</g>
+
+<!-- ============ FLOATING MINI CHART CARD ============ -->
+<g>
+  <animateTransform attributeName="transform" type="translate" values="0,0;0,-14;0,0" dur="12s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+  <g transform="translate(60, 320)">
+    <rect x="0" y="0" width="105" height="80" rx="6" fill="#0a0514" stroke="#a855f7" stroke-width="0.6" stroke-opacity="0.45" opacity="0.9"/>
+    <rect x="0" y="0" width="105" height="80" rx="6" fill="#a855f7" opacity="0.03"/>
+    <!-- Chart header -->
+    <rect x="8" y="10" width="50" height="6" rx="1" fill="#a855f7" opacity="0.3"/>
+    <rect x="75" y="8" width="22" height="10" rx="3" fill="#06ffa5" opacity="0.15" stroke="#06ffa5" stroke-width="0.5" stroke-opacity="0.4"/>
+    <!-- Bar chart small -->
+    <rect x="10" y="60" width="8" height="18" rx="1" fill="url(#chartBarGrad)" opacity="0.7"/>
+    <rect x="22" y="52" width="8" height="26" rx="1" fill="url(#chartBarGrad)" opacity="0.8"/>
+    <rect x="34" y="44" width="8" height="34" rx="1" fill="url(#chartBarGrad)" opacity="0.9"/>
+    <rect x="46" y="55" width="8" height="23" rx="1" fill="url(#chartBarGrad)" opacity="0.7"/>
+    <rect x="58" y="38" width="8" height="40" rx="1" fill="url(#chartBarGrad3)" opacity="0.9"/>
+    <rect x="70" y="46" width="8" height="32" rx="1" fill="url(#chartBarGrad3)" opacity="0.8"/>
+    <rect x="82" y="30" width="8" height="48" rx="1" fill="url(#chartBarGrad3)" opacity="1">
+      <animate attributeName="height" values="48;58;48" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="30;20;30" dur="4s" repeatCount="indefinite"/>
+    </rect>
+    <!-- Baseline -->
+    <line x1="8" y1="78" x2="97" y2="78" stroke="#1a2040" stroke-width="0.5"/>
+  </g>
+</g>
+
+<!-- ============ FLOATING .NET COMPONENT BLOCK ============ -->
+<g>
+  <animateTransform attributeName="transform" type="translate" values="0,0;0,-10;0,0" dur="9.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+  <g transform="translate(870, 185)">
+    <rect x="0" y="0" width="120" height="95" rx="6" fill="#050c1a" stroke="#00d4ff" stroke-width="0.6" stroke-opacity="0.45" opacity="0.92"/>
+    <rect x="0" y="0" width="120" height="95" rx="6" fill="#00d4ff" opacity="0.025"/>
+    <!-- Top label -->
+    <rect x="0" y="0" width="120" height="18" rx="6" fill="#060f22"/>
+    <rect x="0" y="9" width="120" height="9" fill="#060f22"/>
+    <rect x="8" y="6" width="40" height="7" rx="2" fill="#00d4ff" opacity="0.3"/>
+    <circle cx="108" cy="9" r="4" fill="#00d4ff" opacity="0.15"/>
+    <!-- Code-like blocks -->
+    <rect x="8" y="24" width="25" height="6" rx="1" fill="#a855f7" opacity="0.5"/>
+    <rect x="37" y="24" width="55" height="6" rx="1" fill="#00d4ff" opacity="0.35"/>
+    <rect x="96" y="24" width="16" height="6" rx="1" fill="#06ffa5" opacity="0.4"/>
+    <rect x="16" y="36" width="35" height="5" rx="1" fill="#ff6eb4" opacity="0.35"/>
+    <rect x="55" y="36" width="50" height="5" rx="1" fill="#e2e8f0" opacity="0.2"/>
+    <rect x="16" y="47" width="80" height="5" rx="1" fill="#e2e8f0" opacity="0.15"/>
+    <rect x="16" y="58" width="60" height="5" rx="1" fill="#00d4ff" opacity="0.25"/>
+    <rect x="80" y="58" width="30" height="5" rx="1" fill="#a855f7" opacity="0.3"/>
+    <rect x="8" y="70" width="55" height="6" rx="1" fill="#06ffa5" opacity="0.3"/>
+    <rect x="67" y="70" width="45" height="6" rx="1" fill="#e2e8f0" opacity="0.12"/>
+    <rect x="8" y="82" width="30" height="6" rx="1" fill="#e2e8f0" opacity="0.2"/>
+  </g>
+</g>
+
+<!-- ============ HOLOGRAPHIC DASHBOARD PANEL (right floating) ============ -->
+<g>
+  <animateTransform attributeName="transform" type="translate" values="0,0;0,-18;0,0" dur="13s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+  <g transform="translate(1000, 300)">
+    <rect x="0" y="0" width="140" height="110" rx="8" fill="#080414" stroke="#a855f7" stroke-width="0.7" stroke-opacity="0.4" opacity="0.92"/>
+    <rect x="0" y="0" width="140" height="110" rx="8" fill="#a855f7" opacity="0.025"/>
+    <!-- Top bar -->
+    <rect x="0" y="0" width="140" height="20" rx="8" fill="#0d0620"/>
+    <rect x="0" y="10" width="140" height="10" fill="#0d0620"/>
+    <!-- Three dots -->
+    <circle cx="12" cy="10" r="3" fill="#ff5f57" opacity="0.6"/>
+    <circle cx="22" cy="10" r="3" fill="#febc2e" opacity="0.6"/>
+    <circle cx="32" cy="10" r="3" fill="#28c840" opacity="0.6"/>
+    <!-- Mini cards -->
+    <rect x="8" y="26" width="58" height="35" rx="3" fill="#100824" stroke="#a855f7" stroke-width="0.5" stroke-opacity="0.25"/>
+    <rect x="8" y="26" width="58" height="4" rx="1" fill="#a855f7" opacity="0.35"/>
+    <rect x="12" y="36" width="20" height="6" rx="1" fill="#a855f7" opacity="0.2"/>
+    <rect x="12" y="47" width="35" height="8" rx="2" fill="#a855f7" opacity="0.35"/>
+
+    <rect x="74" y="26" width="58" height="35" rx="3" fill="#0a1428" stroke="#00d4ff" stroke-width="0.5" stroke-opacity="0.25"/>
+    <rect x="74" y="26" width="58" height="4" rx="1" fill="#00d4ff" opacity="0.35"/>
+    <rect x="78" y="36" width="20" height="6" rx="1" fill="#00d4ff" opacity="0.2"/>
+    <rect x="78" y="47" width="35" height="8" rx="2" fill="#00d4ff" opacity="0.35"/>
+
+    <!-- Mini line chart -->
+    <rect x="8" y="68" width="124" height="34" rx="3" fill="#060312"/>
+    <polyline points="14,94 28,86 42,90 56,80 70,84 84,74 98,78 112,68 126,72" fill="none" stroke="#06ffa5" stroke-width="1.2" opacity="0.7" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="14,96 28,90 42,93 56,86 70,88 84,80 98,83 112,76 126,79" fill="none" stroke="#a855f7" stroke-width="0.8" opacity="0.5" stroke-linejoin="round" stroke-linecap="round"/>
+    <!-- Moving dot -->
+    <circle cx="84" cy="74" r="2.5" fill="#06ffa5" opacity="0.9">
+      <animate attributeName="cx" values="14;126;14" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="94;72;94" dur="6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</g>
+
+<!-- ============ ANIMATED PARTICLES ============ -->
+<!-- Floating particles scattered around -->
+<g opacity="0.7">
+  <!-- Particle 1 -->
+  <circle cx="100" cy="150" r="1.5" fill="#00d4ff">
+    <animate attributeName="cy" values="150;130;150" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.7;0.2;0.7" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Particle 2 -->
+  <circle cx="950" cy="100" r="2" fill="#a855f7">
+    <animate attributeName="cy" values="100;80;100" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.7;0.1;0.7" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Particle 3 -->
+  <circle cx="750" cy="500" r="1.5" fill="#06ffa5">
+    <animate attributeName="cy" values="500;480;500" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.15;0.6" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Particle 4 -->
+  <circle cx="400" cy="80" r="1" fill="#ff6eb4">
+    <animate attributeName="cy" values="80;60;80" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.7;0.2;0.7" dur="9s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Particle 5 -->
+  <circle cx="1200" cy="380" r="2" fill="#00d4ff">
+    <animate attributeName="cy" values="380;360;380" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0.1;0.5" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Particle 6 -->
+  <circle cx="640" cy="55" r="1.5" fill="#a855f7">
+    <animate attributeName="cy" values="55;35;55" dur="6.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.1;0.6" dur="6.5s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Particle 7 -->
+  <circle cx="200" cy="420" r="1" fill="#06ffa5">
+    <animate attributeName="cy" values="420;400;420" dur="7.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0.1;0.5" dur="7.5s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Particle 8 -->
+  <circle cx="1100" cy="130" r="2" fill="#ff6eb4">
+    <animate attributeName="cy" values="130;110;130" dur="5.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.15;0.6" dur="5.5s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Particle 9 -->
+  <circle cx="480" cy="430" r="1.5" fill="#00d4ff">
+    <animate attributeName="cy" values="430;415;430" dur="10s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.4;0.1;0.4" dur="10s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Particle 10 -->
+  <circle cx="820" cy="380" r="1" fill="#a855f7">
+    <animate attributeName="cy" values="380;365;380" dur="8.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0.1;0.5" dur="8.5s" repeatCount="indefinite"/>
+  </circle>
+</g>
+
+<!-- ============ NEON ACCENT LINES ============ -->
+<!-- Horizontal neon lines top area -->
+<line x1="0" y1="130" x2="120" y2="130" stroke="url(#neonBlue)" stroke-width="0.8" opacity="0.3"/>
+<line x1="0" y1="132" x2="80" y2="132" stroke="#00d4ff" stroke-width="0.4" opacity="0.2"/>
+<line x1="1160" y1="125" x2="1280" y2="125" stroke="url(#neonPurple)" stroke-width="0.8" opacity="0.3"/>
+
+<!-- Vertical accent lines -->
+<line x1="130" y1="155" x2="130" y2="430" stroke="#00d4ff" stroke-width="0.5" opacity="0.15"/>
+<line x1="494" y1="155" x2="494" y2="430" stroke="#00d4ff" stroke-width="0.5" opacity="0.1"/>
+<line x1="508" y1="135" x2="508" y2="430" stroke="#a855f7" stroke-width="0.5" opacity="0.15"/>
+<line x1="872" y1="135" x2="872" y2="430" stroke="#a855f7" stroke-width="0.5" opacity="0.1"/>
+
+<!-- ============ CONNECTION LINES (floating cards to monitors) ============ -->
+<line x1="140" y1="265" x2="142" y2="300" stroke="#00d4ff" stroke-width="0.6" stroke-dasharray="4 4" opacity="0.2"/>
+<line x1="990" y1="160" x2="872" y2="200" stroke="#a855f7" stroke-width="0.6" stroke-dasharray="4 4" opacity="0.2"/>
+<line x1="1170" y1="250" x2="1100" y2="310" stroke="#ff6eb4" stroke-width="0.6" stroke-dasharray="4 4" opacity="0.2"/>
+
+<!-- ============ BOTTOM GLOW LINE ============ -->
+<rect x="0" y="630" width="1280" height="10" fill="url(#neonBlue)" opacity="0.3" filter="url(#blur4)"/>
+<rect x="0" y="636" width="1280" height="4" fill="#00d4ff" opacity="0.15"/>
+
+<!-- ============ TOP EDGE GLOW ============ -->
+<rect x="0" y="0" width="1280" height="8" fill="url(#neonPurple)" opacity="0.25"/>
+<rect x="0" y="0" width="1280" height="2" fill="#a855f7" opacity="0.4"/>
+
+<!-- ============ CORNER ACCENTS ============ -->
+<!-- Top left -->
+<path d="M0 30 L0 0 L30 0" fill="none" stroke="#00d4ff" stroke-width="1.5" opacity="0.6"/>
+<!-- Top right -->
+<path d="M1250 0 L1280 0 L1280 30" fill="none" stroke="#a855f7" stroke-width="1.5" opacity="0.6"/>
+<!-- Bottom left -->
+<path d="M0 610 L0 640 L30 640" fill="none" stroke="#06ffa5" stroke-width="1.5" opacity="0.5"/>
+<!-- Bottom right -->
+<path d="M1250 640 L1280 640 L1280 610" fill="none" stroke="#ff6eb4" stroke-width="1.5" opacity="0.5"/>
+
+<!-- ============ SCANLINE OVERLAY (subtle cinematic effect) ============ -->
+<rect width="1280" height="640" fill="transparent" opacity="0.03">
+  <pattern id="scanlines" x="0" y="0" width="1280" height="4" patternUnits="userSpaceOnUse">
+    <rect x="0" y="0" width="1280" height="2" fill="#000" opacity="0.2"/>
+  </pattern>
+</rect>
+
+<!-- ============ VIGNETTE ============ -->
+<radialGradient id="vignette" cx="50%" cy="50%" r="70%">
+  <stop offset="0%" stop-color="transparent"/>
+  <stop offset="100%" stop-color="#000" stop-opacity="0.5"/>
+</radialGradient>
+<rect width="1280" height="640" fill="url(#vignette)"/>
+
+</g>
+</svg>
